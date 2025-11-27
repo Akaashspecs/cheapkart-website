@@ -16,10 +16,12 @@ export const metadata = {
   icons: {
     icon: [
       { url: "/favv.ico" },
-      { url: "/Trisaran-logo.png", type: "image/png", sizes: "32x32" },
-      { url: "/Trisaran-logo.png", type: "image/png", sizes: "192x192" },
+      { url: "/Cheapkart-Logo.png", type: "image/png", sizes: "32x32" },
+      { url: "/Cheapkart-Logo.png", type: "image/png", sizes: "192x192" },
     ],
-    apple: [{ url: "/Trisaran-logo.png", sizes: "180x180", type: "image/png" }],
+    apple: [
+      { url: "/Cheapkart-Logo.png", sizes: "180x180", type: "image/png" },
+    ],
   },
 };
 
