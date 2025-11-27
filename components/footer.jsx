@@ -50,7 +50,7 @@ const Footer = () => {
               <div>
                 <div>Contact Us</div>
                 Email: contact@cheapkart.in
-                <br /> Contact: +91 9236631676
+                <br /> Contact: +917347703895
                 {/* <IoLogoWhatsapp
                   onClick={() => openWhatsApp()}
                   className=" text-white rounded-full p-1 bg-green-500 text-[35px] cursor-pointer mt-1"
@@ -104,7 +104,7 @@ const Footer = () => {
             <div>
               <div className="mt-2">Contact Us</div>
               Email: contact@cheapkart.in
-              <br /> Contact: +91 9236631676
+              <br /> Contact: +917347703895
             </div>
 
             <div className="w-full">

@@ -6,7 +6,7 @@ import { MdOutlineMessage } from "react-icons/md";
 const MessageTab = () => {
   const [open, setOpen] = useState(false);
   const openWhatsApp = () => {
-    const phoneNumber = "+919236631676"; // Add your number without + or spaces
+    const phoneNumber = "+917347703895"; // Add your number without + or spaces
     const message = "Hello, I want to know more about your services!";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
