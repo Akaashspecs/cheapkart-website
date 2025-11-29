@@ -151,7 +151,7 @@ function Partner() {
         />
       </div>
       <div className=" w-full bg-[#37445a] h-[96px]  text-center  justify-center items-center text-white text-sm sm:text-base md:text-xl lg:text-2xl gap-2 md:gap-5 flex flex-col md:flex-row  px-10">
-        Are you looking to become a TrisaCheapkart Finance ran Money Partner?
+        Are you looking to become a Cheapkart Finance Money Partner?
         <div className="px-6 bg-green-600 rounded-full py-1 md:py-2 text-base hover:scale-110 shadow-2xl transform duration-150 lg:hidden block">
           Download App
         </div>

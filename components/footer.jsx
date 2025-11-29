@@ -74,7 +74,7 @@ const Footer = () => {
                   <Link href={"/"} className="mt-2">
                     Home
                   </Link>
-                  <Link href={"/partner"}>About Us</Link>
+                  <Link href={"/about"}>About Us</Link>
                   <Link href={"/privacy-policy"}>Privacy Policy</Link>
                   <Link href={"/terms-and-conditions"}>
                     Terms And Conditions{" "}

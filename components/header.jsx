@@ -28,27 +28,27 @@ export default function Header() {
           <Link href="/" className={linkClasses("/")}>
             Home
           </Link>
-          <Link href="/about" className={linkClasses("/about")}>
+          <Link href="/about/" className={linkClasses("/about/")}>
             About Us
           </Link>
           <Link
-            href="/privacy-policy"
-            className={linkClasses("/privacy-policy")}
+            href="/privacy-policy/"
+            className={linkClasses("/privacy-policy/")}
           >
             Privacy Policy
           </Link>
           <Link
-            href="/terms-and-conditions"
-            className={linkClasses("/terms-and-conditions")}
+            href="/terms-and-conditions/"
+            className={linkClasses("/terms-and-conditions/")}
           >
             Terms & Conditions
           </Link>
 
-          <Link href="/partner" className={linkClasses("/partner")}>
+          <Link href="/partner/" className={linkClasses("/partner/")}>
             Become A Partner
           </Link>
           <Link
-            href="/partner"
+            href="/partner/"
             className={
               "bg-blue-500 text-white px-3 py-2 rounded-3xl hover:shadow-lg cursor-pointer hidden lg:block"
             }
@@ -87,31 +87,31 @@ export default function Header() {
             Home
           </Link>
           <Link
-            href="/about"
+            href="/about/"
             onClick={closeSidebar}
-            className={linkClasses("/about")}
+            className={linkClasses("/about/")}
           >
             About
           </Link>
 
           <Link
-            href="/privacy-policy"
+            href="/privacy-policy/"
             onClick={closeSidebar}
-            className={linkClasses("/privacy-policy")}
+            className={linkClasses("/privacy-policy/")}
           >
             Privacy Policy
           </Link>
           <Link
-            href="/terms-and-conditions"
+            href="/terms-and-conditions/"
             onClick={closeSidebar}
-            className={linkClasses("/terms-and-conditions")}
+            className={linkClasses("/terms-and-conditions/")}
           >
             Terms & Conditions
           </Link>
           <Link
-            href="/partner"
+            href="/partner/"
             onClick={closeSidebar}
-            className={linkClasses("/partner")}
+            className={linkClasses("/partner/")}
           >
             Become a Partner
           </Link>
