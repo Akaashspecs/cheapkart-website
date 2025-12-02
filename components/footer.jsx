@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="  max-w-[1600px] mx-auto mb-[50px] ">
           <div className="text-white/75 text-[13px]   grid-cols-2 md:grid-cols-4 gap-5 hidden sm:grid">
             <div className="max-w-[320px]">
-              <div>About Us</div>
+              <div className="text-[14.5px] text-white">About Us</div>
               <div>
                 CHEAPKART FINANCE was established in 2023 with a mission to
                 promote rural development, financial inclusion, and women
@@ -39,7 +39,7 @@ const Footer = () => {
               </div>
             </div>
             <div className=" max-w-[280px]  md:max-w-[320px]">
-              <div>Register Office</div>
+              <div className="text-[14.5px] text-white">Register Office</div>
               <div>
                 CHEAPKART FINANCE
                 <br /> Address: A4, Govind Vihar, Gomti Nagar, Lucknow, 226028
@@ -48,19 +48,19 @@ const Footer = () => {
 
             <div className="pl-6 md:pl-0">
               <div>
-                <div>Contact Us</div>
+                <div className="text-[14.5px] text-white">Contact Us</div>
                 Email: contact@cheapkart.in
                 <br /> Contact: +917347703895
                 {/* <IoLogoWhatsapp
                   onClick={() => openWhatsApp()}
                   className=" text-white rounded-full p-1 bg-green-500 text-[35px] cursor-pointer mt-1"
                 /> */}
-                <div className="lg:hidden block">
+                {/* <div className="lg:hidden block">
                   <div className=" mt-2">Download Our Trisaran App:</div>
                   <div className="bg-blue-500 w-fit px-2 py-1 rounded-sm mt-1">
                     Download App
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -82,17 +82,17 @@ const Footer = () => {
                   <Link href={"/partner"}>Become a Partner </Link>
                 </div>
               </div>
-              <div className="grow flex-1 flex justify-end">
+              {/* <div className="grow flex-1 flex justify-end">
                 <div>
                   <div>Download Our Cheapkart App:</div>
                   <div className="bg-blue-500 w-fit px-2 py-1 rounded-sm mt-1">
                     Download App
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className=" w-full">
-              <div>About Us</div>
+              <div className="text-[14.5px] text-white">About Us</div>
               <div className="w-full">
                 CHEAPKART FINANCE was established in 2023 with a mission to
                 promote rural development, financial inclusion, and women
@@ -102,13 +102,13 @@ const Footer = () => {
               </div>
             </div>
             <div>
-              <div className="mt-2">Contact Us</div>
+              <div className="mt-2 text-[14.5px] text-white">Contact Us</div>
               Email: contact@cheapkart.in
               <br /> Contact: +917347703895
             </div>
 
             <div className="w-full">
-              <div>Register Office</div>
+              <div className="text-[14.5px] text-white">Register Office</div>
               <div>
                 CHEAPKART FINANCE
                 <br /> Address: A4, Govind Vihar, Gomti Nagar, Lucknow, 226028

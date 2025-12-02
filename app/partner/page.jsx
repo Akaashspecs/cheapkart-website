@@ -2,6 +2,8 @@ import { FaMoneyCheck } from "react-icons/fa";
 import { IoPeopleOutline } from "react-icons/io5";
 import { MdOutlineAppSettingsAlt } from "react-icons/md";
 import { PiHandWithdraw } from "react-icons/pi";
+import Contact from "./Contact";
+import PartnerPortal from "./PartnerPortal";
 
 function Partner() {
   const financeOnline = [
@@ -41,11 +43,11 @@ function Partner() {
       img: <PiHandWithdraw />,
     },
     {
-      head: "Cheapkart mobile app",
+      head: "Ready-Made App + Website ",
       desc: "reach your customers online and offline",
       img: <MdOutlineAppSettingsAlt />,
     },
-    { head: "Upto Rs. 50,000/-", desc: "Income/month", img: <FaMoneyCheck /> },
+    { head: "Upto Rs. 1 Lakh/-", desc: "Income/month", img: <FaMoneyCheck /> },
   ];
 
   const earn = [
@@ -105,21 +107,21 @@ function Partner() {
   ];
   const partner = [
     {
-      desc: "I joined Cheapkart Finance 5 months ago. The app is very user friendly and the personalized website and marketing features helped me get more customers. The partner support team is very supportive and cooperative as well. All my queries have been resolved by them quickly. ",
+      desc: "This financial app completely changed my business. Earlier, handling leads and loan applications was a mess, but now everything is automated. The dashboard is clean, easy to understand, and my clients trust me more because I have my own branded app. Highly recommended for anyone who wants to grow their finance business! ",
       name: "Aakash Saxena",
-      tag: "Cheapkart Finance  Certified Partner",
+      tag: "  Certified Partner",
       image: "/Aakash.png",
     },
     {
-      desc: "I feel proud to be a Cheapkart Finance Partner. This job has earned me respect in society. Also I am very happy to help people when they are in financial difficulties. The appreciation that I get from my customers motivates me to always do my best.",
+      desc: "I launched my own branded financial portal using this app, and within 2 months, my earnings doubled. The KYC, document upload, and application tracking features save so much time. Customer support is also very responsive. It feels like I’m running a professional fintech company!",
       name: "Sanjay Yadav",
-      tag: "Cheapkart Finance Certified Partner",
+      tag: " Certified Partner",
       image: "/Sanjay.png",
     },
     {
-      desc: "I am glad that I chose to associate myself with Cheapkart Finance . They have some unique financial products and selling those to people in need makes me very happy because through Cheapkart Finance  I could make an impact in people’s lives. They have the best commissions in the market.",
+      desc: "This app is perfect for anyone starting a financial service business. The best part is that everything is customizable — from the logo to the services. My customers love the real-time updates and easy loan application process. Totally worth the investment!",
       name: "Adesh Chaudhary",
-      tag: "Cheapkart Finance Certified Partner",
+      tag: " Certified Partner",
       image: "/Vinay.png",
     },
   ];
@@ -128,15 +130,15 @@ function Partner() {
     <div className="">
       <div className="px-[25px] pt-[50px] lg:px-[74px] lg:pt-[88px] max-w-[1300px] w-full flex mx-auto relative">
         <div className="flex flex-col items-center lg:items-start w-full ">
-          <h3 className="text-[25px] md:text-[35px] font-medium w-fit text-center lg:text-start ">
-            Aapki apni finance ki dukaan
+          <h3 className="text-[25px] md:text-[35px] max-w-[800px] font-medium w-fit text-center lg:text-start ">
+            Become an Own Branding Portal Partner with Cheapkart Finance!
           </h3>
           <div className="h-[6px] w-[80px] bg-[#4eb543]  my-[15px] "></div>
           <div className="max-w-[600px] text-sm md:text-base lg:text-start 2xl:text-[20px] text-center text-[#707070]">
-            Your reliable partner for personal, home, business, and car loans.
-            We simplify the loan process with expert guidance, bank
-            partnerships, and fast approvals with ensuring the best interest
-            rates, easy documentation, and quick disbursal..
+            Launch Your Own Financial Brand — PAN India! Cheapkart Finance is
+            bringing a powerful opportunity where you can launch your own
+            financial portal, app, and website under your name and offer
+            professional financial services across India.
           </div>
           <div className="text-center lg:text-start text-[14px] text-[#414141] mt-5 2xl:text-[16px]">
             Finance ki online dukaan app in 5 languages to reach customers
@@ -150,15 +152,7 @@ function Partner() {
           className="absolute bottom-0 left-1/2 lg:left-auto lg:translate-x-0 -translate-x-1/2 lg:right-20 -z-10 px-7 "
         />
       </div>
-      <div className=" w-full bg-[#37445a] h-[96px]  text-center  justify-center items-center text-white text-sm sm:text-base md:text-xl lg:text-2xl gap-2 md:gap-5 flex flex-col md:flex-row  px-10">
-        Are you looking to become a Cheapkart Finance Money Partner?
-        <div className="px-6 bg-green-600 rounded-full py-1 md:py-2 text-base hover:scale-110 shadow-2xl transform duration-150 lg:hidden block">
-          Download App
-        </div>
-        <div className="px-6 bg-green-600 rounded-full py-1 md:py-2 text-base hover:scale-110 shadow-2xl transform duration-150 hidden lg:block">
-          Register
-        </div>
-      </div>
+      <PartnerPortal />
       {/* finance dukan. #F8F8F8*/}
       <div className="w-full py-[80px] px-5 relative">
         <div className="h-[250px] bg-[#F8F8F8] w-full absolute -z-30 left-0 top-0 "></div>
@@ -198,8 +192,9 @@ function Partner() {
       <div className="pb-[80px] pt-[40px] px-[30px]">
         <div>
           <h3 className="text-[25px] md:text-[32px] font-medium  text-center text-[#1A2343]  ">
-            Why is Cheapkart Finance the #1 trusted
-            <br /> platform for financial consultants
+            Why Become an Own Branding Portal Partner
+            <br />
+            with Cheapkart Finance?
           </h3>
           <div className="h-[6px] w-[80px] bg-[#4eb543]  my-[15px] mx-auto "></div>
         </div>
@@ -221,7 +216,7 @@ function Partner() {
       <div>
         <div className="py-[70px] bg-[#F8F8F8]">
           <div className="text-[25px] md:text-[32px] font-medium  text-center text-[#1A2343]  ">
-            <h3>Who can earn with Cheapkart Finance ?</h3>
+            <h3>Who can earn with Branding Portal ?</h3>
           </div>
           <div className="h-[6px] w-[80px] bg-[#4eb543]  my-[15px] mx-auto "></div>
         </div>
@@ -298,7 +293,7 @@ function Partner() {
       <div>
         <div className="pt-[70px] pb-[30px]  ">
           <h3 className="text-[25px] md:text-[32px] font-medium  text-center text-[#1A2343] ">
-            What our Cheapkart Finance Partners say
+            What our Brand Owning Partners say
           </h3>
           <div className="h-[6px] w-[80px] bg-[#4eb543]  my-[15px] mx-auto "></div>
         </div>
@@ -330,21 +325,22 @@ function Partner() {
         <div className="my-30 flex justify-center">
           <div className="max-w-[700px] lg:max-w-[1600px] flex rounded-[50px] min-h-[310px]  md:h-[500px] lg:h-full w-full bg-[#37445a] px-10 2xl:px-24 pt-10 relative overflow-hidden  mx-5 md:mx-10">
             <div className="w-full text-center lg:text-start">
-              <div className="text-white text-[24px] md:text-[30px] lg:block hidden">
-                Register as a Cheapkart Finance Partner
+              <div className="text-white text-[22px] md:text-[30px] ">
+                Contact us to become Brand Owning Partner
               </div>
-              <div className="text-white text-[24px] md:text-[30px] lg:hidden block">
+              {/* <div className="text-white text-[24px] md:text-[30px] lg:hidden block">
                 Download Cheapkart Finance App
-              </div>
-              <div className="mt-1 text-white text-[18px] md:text-[22px]">
+              </div> */}
+              <div className="mt-1 text-white/75 text-[14px] md:text-[20px]">
                 Grow your business. Grow your career
               </div>
-              <div className=" lg:block hidden mx-auto lg:mx-0 mt-10 px-6 w-fit text-black bg-white rounded-full py-3 md:py-3 text-base hover:scale-110 shadow-2xl transform duration-150">
-                Register Now
+              <div className="relative z-10">
+                <Contact />
               </div>
-              <div className="lg:hidden block mx-auto lg:mx-0 mt-10 px-6 w-fit text-black bg-white rounded-full py-3 md:py-3 text-base hover:scale-110 shadow-2xl transform duration-150">
+
+              {/* <div className="lg:hidden block mx-auto lg:mx-0 mt-10 px-6 w-fit text-black bg-white rounded-full py-3 md:py-3 text-base hover:scale-110 shadow-2xl transform duration-150">
                 Download App
-              </div>
+              </div> */}
             </div>
             <div className="h-[450px] md:hidden"></div>
 

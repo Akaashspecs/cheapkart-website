@@ -102,7 +102,7 @@ const Intro = () => {
           ))}
         </Swiper> */}
 
-        <div className="flex w-full justify-around md:flex-row flex-col  md:mt-10 md:pl-15">
+        <div className="flex w-full justify-around md:flex-row flex-col  md:mt-10 md:px-5">
           <div className="relative w-full  max-w-[950px]   flex flex-col  items-center md:items-start mb-10 md:mb-0 px-5 md:px-0">
             <div className="text-[30px] lg:text-[45px] lg:leading-13 max-w-[940px] mt-3 md:mt-10 text-center md:text-start ">
               Best Platform to sell{" "}
@@ -116,23 +116,22 @@ const Intro = () => {
               Learn & Earn From Anywhere By Referring Customers And Educating
               Them On The Products Being Offered.
             </div>
-            <div className="bg-blue-500 w-fit px-3 py-3 text-white rounded-2xl mt-5 block lg:hidden">
-              Download Now
-            </div>
             <Link
-              href={"/partner"}
-              className="bg-blue-500 w-fit px-3 py-3 text-white rounded-2xl mt-5 hidden lg:block"
+              href={"partner"}
+              className={
+                "bg-blue-500 w-fit px-3 py-3 text-white rounded-2xl mt-5"
+              }
             >
-              Register Now
+              <div>Become a Partner</div>
             </Link>
           </div>
-          <div className="relative md:mb-10  lg:block flex justify-center">
+          <div className="relative md:mb-10  lg:block flex justify-center px-5 md:px-0">
             <Image
               width={512}
               height={521}
               alt="app"
               className=""
-              src={"/mobile-app.png"}
+              src={"/mobile-logo.png"}
             />
           </div>
         </div>

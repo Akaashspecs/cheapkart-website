@@ -44,16 +44,11 @@ export default function Header() {
             Terms & Conditions
           </Link>
 
-          <Link href="/partner/" className={linkClasses("/partner/")}>
-            Become A Partner
-          </Link>
           <Link
             href="/partner/"
-            className={
-              "bg-blue-500 text-white px-3 py-2 rounded-3xl hover:shadow-lg cursor-pointer hidden lg:block"
-            }
+            className={` bg-blue-500 text-white px-3 py-2 rounded-3xl hover:shadow-lg cursor-pointer hidden md:block`}
           >
-            Advisor Login
+            Become A Partner
           </Link>
         </nav>
 

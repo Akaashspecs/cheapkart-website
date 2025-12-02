@@ -3,8 +3,8 @@ import AnimatedCountItem from "./AnimatedCountItem";
 const CustomerNumber = () => {
   const data = [
     { text: "Loan Disbursement", num: "1000", total: "Cr" },
-    { text: "DSA partners", num: "100", total: "" },
-    { text: "Bank Partnerships", num: "80", total: "" },
+    { text: "DSA partners", num: "1000", total: "" },
+    { text: "Bank Partnerships", num: "100", total: "" },
   ];
 
   return (
